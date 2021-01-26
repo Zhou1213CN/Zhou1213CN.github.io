@@ -2,7 +2,7 @@
     "about":{
     "name":"Zheng Zhou",
      "title":"Student @ Boston College",
-     "photo":"files/photo1.jpeg",
+     "photos":"files/photo1.jpeg",
      "desc":"Zheng Zhou is a junior student with Computer Science and Mathematics majors at BC. I was born in 1999. I come from Nanjing, China. I transfered from Oberlin College, and my major used to be Economics. I am interested in machine learning, algorithms, and web application. I am planning to apply Graduates programs. I love watching movies and listening to music. I am a gentle and easy-going person.",
      "email": "zhoupt@bc.edu",
      "address": "276 Chestnut Hill Ave, Brighton, MA 02135",

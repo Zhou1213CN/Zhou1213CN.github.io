@@ -4,7 +4,7 @@ export default function About(about){
         <h1 class="title animated infinite bounce delay-1s">${about.name}</h1>
         <div class="row">
             <div class="col-1">
-                <img class="profile-img" src="${about.photo}"/>
+                <img class="profile-img" src="${about.photos}"/>
                 <p>
                     <strong>${about.title}</strong><br>
                     ${about.email} <br>

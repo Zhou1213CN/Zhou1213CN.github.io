@@ -62,8 +62,8 @@ export function handleProjectFilter(data){
 
 export function ProjectItems(projects){
       console.log("proje", projects);
-      let p = Array.from(projects)
-      console.log("proj", p);
+      //let p = Array.from(projects)
+      //console.log("proj", p);
       return projects.map(d=>`  
           <div class="row">
               <div class="col-1">
