@@ -19,6 +19,10 @@
   align-items: center;
 
 }
+#about {
+
+}
+
 #project .col-1:nth-child(1){
   flex:1;
   display: flex;
@@ -32,6 +36,7 @@
 .col-3 {flex-basis: 66.66%;}
 .col-4 {flex-basis: 20%;}
 .col-5 {flex-basis: 80%;}
+
 
 section{
   margin: 1rem 0 1rem 0;
@@ -52,18 +57,22 @@ section .title{
 
 }
 
-.photos{
-  border-radius: 20px;
-  width: 250px;
-  height: 250px;
-  object-fit:cover;
-
-}
-
 body {
     font-family: "Times New Roman", Times, serif;
     font-size: 22px;
     
+}
+
+
+.row{
+  display: flex;
+  width: 100%	
+}
+
+.column {
+  display: flex;
+  flex-basis: 100%;
+  flex: 5;
 }
 
 nav ul {
@@ -82,7 +91,7 @@ div.gallery {
   display: flex;	
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
+  float: right;
   width: 180px;
   align-items: center;
   
@@ -98,20 +107,7 @@ div.gallery {
   height: auto;
   position: static;
   }
-
-
-
-
-.row{
-  display: flex;
-  width: 100%	
-}
-
-.column {
-  display: flex;
-  flex-basis: 100%;
-  flex: 5;
-}
+  
 
 h1 {
     font-family: "Sans-serif", Sans, serif;
@@ -121,7 +117,7 @@ h1 {
   
 h2 {
     font-family: "Sans-serif", Sans, serif;
-    color:pink;
+    color:black;
     text-align: center;
   }
 
@@ -202,6 +198,15 @@ footer{
   text-align: center;
 }
 
+.col-2 {
+  text-align: right;
+}
+
+.col-1 {
+  text-align: left;
+}
+
+
 @media only screen and (min-width: 768px) {
   .col-1 {flex-basis: 50%;}
   .col-2 {flex-basis: 33.33%;}
@@ -210,7 +215,4 @@ footer{
   .col-5 {flex-basis: 80%;}
   
 
-  #news .col-2 {
-      text-align: right;
-  }
-}
+ 
