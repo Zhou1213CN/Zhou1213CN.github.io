@@ -477,7 +477,7 @@ i {
 
 
 /* media queries */
-@media screen and (max-width:768px) {
+@media screen and (max-width:812px) {
 
     /* End project */
     body {
@@ -490,6 +490,13 @@ i {
         right: 2rem; */
         visibility: hidden;
     }
+    .profile-img{
+        visibility: hidden;
+        /* width: 95%;
+        height: 95%;
+        margin: 0 0 auto 0; */
+    }
+
 
     .landing-text h1{
         font-size: 7rem;
@@ -567,12 +574,7 @@ i {
         flex-direction: column;
     }
 
-    .profile-img{
-        visibility: hidden;
-        /* width: 95%;
-        height: 95%;
-        margin: 0 0 auto 0; */
-    }
+    
 
     .project-item{
         flex-direction: column;
