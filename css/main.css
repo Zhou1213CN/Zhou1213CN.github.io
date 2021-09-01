@@ -376,8 +376,8 @@ main {
 
 .profile-img {
     
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%;
+    max-width: 100%; */
     flex: 0.5;
     margin-right: 10rem;
   
@@ -485,20 +485,26 @@ i {
         background-size: cover;
     }
 
+    .menu-toggler{
+        /* top: 2rem;
+        right: 2rem; */
+        visibility: hidden;
+    }
+
     .landing-text h1{
-        font-size: 15rem;
+        font-size: 7rem;
     }
 
     .landing-text h6{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .nav-list{
-        flex-direction: column;
+        flex-direction: row;
     }
 
     
-
+    
     .info-list{
         flex-direction: row;
     }
@@ -540,13 +546,13 @@ i {
 
 @media screen and (max-width: 600px){
 
-    .menu-toggler{
+    /* .menu-toggler{
         top: 2rem;
         right: 2rem;
-    }
+    } */
 
     .landing-text h1{
-        font-size: 8rem;
+        font-size: 5rem;
     }
 
     .landing-text h6{
@@ -562,26 +568,21 @@ i {
     }
 
     .profile-img{
-        width: 20px;
-        height: 20px;
-        margin: 0 0 auto 0;
+        visibility: hidden;
+        /* width: 95%;
+        height: 95%;
+        margin: 0 0 auto 0; */
     }
 
     .project-item{
         flex-direction: column;
     }
 
-    .timeline p{
-        font-size: 1.6rem;
-    }
+    
 
-    .timeline .date::before{
-        font-size: 1.4rem;
-    }
-
-    form{
-        width: 100%;
-    }
+  .time-1 {
+      font-size: 1.6rem;
+  }
 
     .up{
         border-top-color: #6035AD;
